@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace RPGDIO.src.entities;
-    public class Knight : Hero
+    public class Knight : Hero 
     {
         public Knight(string Name,int Level,string HeroType){
             this.Name = Name;

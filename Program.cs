@@ -7,7 +7,7 @@ class Program
        Knight arus = new Knight("Arus", 23, "Knight");
        Wizard lana = new Wizard("Lana", 18, "Black Wizard");
         
-        Console.Write(arus.Attack);
-        Console.Write(lana.Attack);
+        Console.Write(arus.Attack());
+        Console.Write(lana.Attack(1));
     }
 }
