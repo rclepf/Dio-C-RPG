@@ -4,11 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {   
-        Arus hero = new Arus();
-        hero.Name = "Arus";
-        hero.level = 2;
-        hero.HeroType = "Knight";
-
-        Console.Write(" ");
+       Knight arus = new Knight("Arus", 23, "Knight");
+       Wizard lana = new Wizard("Lana", 18, "Black Wizard");
+        
+        Console.Write(arus.Attack);
+        Console.Write(lana.Attack);
     }
 }
